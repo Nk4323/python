@@ -1,0 +1,80 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNo0WT3kLsquwIkvKVcounF",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Nk4323/python/blob/main/print%20table%20using%20while%20loop.ioynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "gEETCcrqSH9O",
+        "outputId": "467157c8-192f-4296-cb78-40e313509b80"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the number 12\n",
+            "12 * 1 = 12\n",
+            "12 * 2 = 24\n",
+            "12 * 3 = 36\n",
+            "12 * 4 = 48\n",
+            "12 * 5 = 60\n",
+            "12 * 6 = 72\n",
+            "12 * 7 = 84\n",
+            "12 * 8 = 96\n",
+            "12 * 9 = 108\n",
+            "12 * 10 = 120\n"
+          ]
+        }
+      ],
+      "source": [
+        "number = int(input(\"enter the number \"))\n",
+        "\n",
+        "i = 1\n",
+        "\n",
+        "while  i<11:\n",
+        "  print(number, \"*\",i, \"=\",number *i)\n",
+        "  i += 1"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "()"
+      ],
+      "metadata": {
+        "id": "UgFbLeZ4SKwE"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
